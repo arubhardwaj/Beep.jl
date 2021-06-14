@@ -1,8 +1,10 @@
 module Beep
-    using WAV
-    export beep
+using WAV
 
-    include("src/soundsDict.jl")    
-    include("src/notifyme.jl") 
+export beep
+
+include("src/soundsDict.jl")    
+include("src/notifyme.jl") 
     
 end
+
