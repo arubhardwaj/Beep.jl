@@ -1,5 +1,4 @@
 module Beep
-include("notifyme.jl")
-# Write your package code here.
-
+    include("notifyme.jl")
+    include("soundsDict.jl")
 end

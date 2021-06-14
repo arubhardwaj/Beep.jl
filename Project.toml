@@ -8,7 +8,7 @@ WAV = "8149f6b0-98f6-5db9-b78f-408fbbb8ef88"
 
 [compat]
 julia = "1"
-
+WAV = "1.1"
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
