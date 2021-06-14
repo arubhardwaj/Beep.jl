@@ -3,6 +3,9 @@ uuid = "523ff9b5-acc8-40d7-b2fd-2928fbc3bb4b"
 authors = ["Aru Bhardwaj"]
 version = "0.1.0"
 
+[deps]
+WAV = "8149f6b0-98f6-5db9-b78f-408fbbb8ef88"
+
 [compat]
 julia = "1"
 
