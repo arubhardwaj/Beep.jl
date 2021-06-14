@@ -9,11 +9,11 @@
 ## Usage
 ```julia
 
-julia> beep()
+julia> beep("sound_type")
 
 ```
 
-By default "work_complete" sound is set here. However, it can be changed. Presently this package supports 11 sounds:
+It is required to specify sound type in function. Presently this package supports 11 sounds:
 
 -    "facebook" 
 -    "microwave" 
