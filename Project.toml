@@ -1,6 +1,6 @@
 name = "Beep"
 uuid = "523ff9b5-acc8-40d7-b2fd-2928fbc3bb4b"
-authors = ["Aru Bhardwaj"]
+authors = ["Aru Bhardwaj <arubhardwaj@pm.me>"]
 version = "0.1.0"
 
 [deps]
@@ -8,6 +8,7 @@ WAV = "8149f6b0-98f6-5db9-b78f-408fbbb8ef88"
 
 [compat]
 julia = "1"
+WAV = "1.1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
