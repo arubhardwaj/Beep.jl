@@ -1,5 +1,7 @@
 
 function beep(sound_type::String)
-    path = joinpath(@__DIR__, sound_dict[sound_type])
+    basename = joinpath(@__DIR__, "..", "sounds", sound_type)
+
+    path = joinpath(basename, string(sound_type, ".wav"))
     return(wavplay(path))
 end
