@@ -1,5 +1,8 @@
 module Beep
+    
+    export beep
+
     include("soundsDict.jl")    
     include("notifyme.jl") 
-    export beep
+    
 end
