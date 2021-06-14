@@ -1,5 +1,5 @@
 sound_dict = Dict(
-    "facebook" => "~/sounds/facebook.wav",
+    "facebook" => "sounds/facebook.wav",
     "microwave" => "sounds/microwave_ping_mono.wav",
     "new_item" => "sounds/new_item.wav",
     "ready_master" => "sounds/ready_master",
