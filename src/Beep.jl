@@ -3,8 +3,7 @@ using WAV
 
 export beep
 
-include("src/soundsDict.jl")    
-include("src/notifyme.jl") 
+include("soundsDict.jl")    
+include("notifyme.jl") 
     
 end
-
