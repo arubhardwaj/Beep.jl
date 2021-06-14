@@ -9,7 +9,10 @@
 ## Usage
 ```julia
 
-julia> beep("sound_type")
+julia> beep() # default sound: "work_complete"
+
+
+julia> beep("sound_type") # specify any sound type from the list
 
 ```
 
