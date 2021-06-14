@@ -1,4 +1,4 @@
 module Beep
-    include("notifyme.jl")
-    include("soundsDict.jl")
+    include("soundsDict.jl")    
+    include("notifyme.jl") 
 end
