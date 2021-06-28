@@ -31,7 +31,7 @@ It is required to specify sound type in function. Presently this package support
 
 # Add more sounds
 
-Feel free to make a PR and add more sounds for notification. From [Zapslat](https://www.zapsplat.com/).
+Feel free to make a PR and add more sounds for notification from [Zapslat](https://www.zapsplat.com/).
 
 
 # Credits
