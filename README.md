@@ -18,20 +18,22 @@ julia> beep("sound_type") # specify any sound type from the list
 
 It is required to specify sound type in function. Presently this package supports 11 sounds:
 
--    "facebook" 
--    "microwave" 
--    "new_item" 
--    "ready_master" 
--    "shotgun" 
--    "smb_coin" 
--    "smb_stage_clear"
--    "sword" 
--    "victory_fanfare_mono"
--    "wilhelm" 
--    "work_complete" 
+-    "alert" 
+-    "church" 
+-    "gun" 
+-    "laser" 
+-    "quack" 
+-    "rocket" 
+-    "whistle"
+
 
 
 
 # Add more sounds
 
-Feel free to make a PR and add more sounds for notification. 
+Feel free to make a PR and add more sounds for notification. From [Zapslat](https://www.zapsplat.com/).
+
+
+# Credits
+
+Sound effects obtained from https://www.zapsplat.com
