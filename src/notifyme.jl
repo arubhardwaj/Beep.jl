@@ -1,5 +1,5 @@
 
-function beep(sound_type::String="work_complete")
+function beep(sound_type::String="alert")
     basename = joinpath(@__DIR__, "..", "sounds")
 
     path = joinpath(basename, string(sound_type, ".wav"))
