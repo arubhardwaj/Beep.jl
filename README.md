@@ -16,7 +16,7 @@ julia> beep("sound_type") # specify any sound type from the list
 
 ```
 
-It is required to specify sound type in function. Presently this package supports 11 sounds:
+It is required to specify sound type in function.
 
 -    "alert" 
 -    "church" 
