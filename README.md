@@ -19,6 +19,7 @@ julia> beep("sound_type") # specify any sound type from the list
 It is required to specify sound type in function.
 
 -    "alert" 
+-    "chris"
 -    "church" 
 -    "gun" 
 -    "laser" 
