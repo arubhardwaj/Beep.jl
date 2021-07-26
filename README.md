@@ -34,6 +34,8 @@ It is required to specify sound type in function.
 julia> @beep "chris" println("Playing Chris!")
 
 julia> @beep @info "Play default sound and print this message."
+
+julia> @beep "chris" "laser" @info "Let your task be preceeded by a chris beep and followed by a laser. Who wouldn't want that!"
 ```
 
 # Add more sounds
