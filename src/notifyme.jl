@@ -6,12 +6,21 @@ function beep(sound_type::String="alert")
     return(wavplay(path))
 end
 
+macro beep(st1, st2, expr)
+    beep(st1)
+    e = eval(expr)
+    beep(st2)
+    return e
+end
+
 macro beep(sound_type, expr)
+    e = eval(expr)
     beep(sound_type)
-    return expr
+    return e
 end
 
 macro beep(expr)
+    e = eval(expr)
     beep()
-    return expr
+    return e
 end
